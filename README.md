@@ -8,15 +8,15 @@ To install:
 
 Git clone this repository
 
-    git clone git@bitbucket.org:kibanana/kibanana Kibanana
+    git clone git@bitbucket.org:kibanana/kibanana-project
 
 Make it a virtualenv
 
-    virtualenv --system-site-packages Kibanana
+    virtualenv --system-site-packages kibanana-project
 
 cd into it, install zc.buildout and run buildout
 
-    cd Kibanana && bin/pip install zc.buildout && bin/buildout -c development.cfg
+    cd kibanana-project && bin/pip install zc.buildout && bin/buildout -c development.cfg
 
 Customize settings:
 
