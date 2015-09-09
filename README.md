@@ -8,7 +8,7 @@ To install:
 
 Git clone this repository
 
-    git clone git@bitbucket.org:kibanana/kibanana-project
+    git clone git@git.kumina.nl:kibanana/kibanana.git
 
 Make it a virtualenv
 
