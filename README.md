@@ -8,7 +8,7 @@ To install:
 
 Git clone this repository
 
-    git clone git@git.kumina.nl:kibanana/kibanana.git
+    git clone git@git.kumina.nl:kibanana/kibanana-project.git
 
 Make it a virtualenv
 
@@ -28,7 +28,7 @@ Make sure you set the correct UPSTREAM url's for Kibana and ElasticSearch, and t
 
 Start Django:
 
-    cd ..
+    cd ../..
     bin/django runserver
 
 Go to http://localhost:8000/ and use the credentials you've set in config.py
