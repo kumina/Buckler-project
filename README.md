@@ -1,26 +1,26 @@
-Kibanana - kibanana sample project
+Buckler - buckler sample project
 ==================================
 
-Kibanana adds multi user support (with authentication and per-user indexes)
+Buckler adds multi user support (with authentication and per-user indexes)
 to Kibana4
 
 To install:
 
 Git clone this repository
 
-    git clone git@git.kumina.nl:kibanana/kibanana-project.git
+    git clone git@git.kumina.nl:kibanana/buckler-project.git
 
 Make it a virtualenv
 
-    virtualenv --system-site-packages kibanana-project
+    virtualenv --system-site-packages buckler-project
 
 cd into it, install zc.buildout and run buildout
 
-    cd kibanana-project && bin/pip install zc.buildout && bin/buildout -c development.cfg
+    cd buckler-project && bin/pip install zc.buildout && bin/buildout -c development.cfg
 
 Customize settings:
 
-    cd Kibanana/settings
+    cd Buckler/settings
     cp config.py-in config.py
     vi config.py
 
