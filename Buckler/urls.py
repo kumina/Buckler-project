@@ -20,5 +20,5 @@ import buckler.urls
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
-    url(r'', include(kibanana.urls)),
+    url(r'', include(buckler.urls)),
 ]
