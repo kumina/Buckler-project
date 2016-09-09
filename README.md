@@ -8,7 +8,7 @@ To install:
 
 Git clone this repository
 
-    git clone git@git.kumina.nl:buckler/buckler-project.git
+    git clone https://github.com/kumina/Buckler-project.git
 
 Make it a virtualenv
 
